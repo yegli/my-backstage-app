@@ -1,8 +1,18 @@
-# [Backstage](https://backstage.io)
+# [Getting Started](https://backstage.io/docs/getting-started/)
 
-This is your newly scaffolded Backstage App, Good Luck!
+```sh
+# create new backstage app
+npx @backstage/create-app@latest
+# install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# install supported node version 18
+nvm install 18
+nvm use 18
+# rerun yarn install in backstage dir
+yarn install
+```
 
-To start the app, run:
+# [Run Backstage](https://backstage.io)
 
 ```sh
 yarn install
